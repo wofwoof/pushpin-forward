@@ -1,0 +1,13 @@
+# This file describes a Fastly Compute package. To learn more visit:
+# https://developer.fastly.com/reference/fastly-toml/
+
+authors = ["gitcoins@outlook.com"]
+cloned_from = "https://github.com/fastly/compute-starter-kit-javascript-fanout-forward"
+description = ""
+language = "javascript"
+manifest_version = 3
+name = "fanout-forward"
+service_id = "4GIsYMqa532XLC6h0rgT75"
+
+[scripts]
+  build = "npm run build"

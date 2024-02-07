@@ -1,0 +1,16 @@
+{
+  "type": "module",
+  "engines": {
+    "node": "^18.0.0"
+  },
+  "dependencies": {
+    "@fastly/js-compute": "^3.7.0",
+    "jspack": "^0.0.4"
+  },
+  "scripts": {
+    "help": "js-compute-runtime --help",
+    "build": "js-compute-runtime ./src/index.js ./bin/main.wasm",
+    "publish": "fastly compute publish",
+    "serve": "fastly compute serve"
+  }
+}
